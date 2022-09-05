@@ -1,0 +1,42 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+#main{
+      /* border : 1px solid black; */
+      width: 50%;
+      margin: auto;
+      padding: 4px;
+}
+.btn{
+      /* border: 1px solid red; */
+      padding: 0px 4px;
+      margin: 0px 2px;
+      border-radius: 2px;
+}
+.todohead{
+      /* border: 1px solid blue; */
+      padding: 4px;
+}
+.todohead h1{
+      /* border: 1px solid black; */
+      text-decoration:underline;
+      text-align: center; 
+}
+.todohead form{
+      /* border: 1px solid red; */
+      text-align: center;
+      padding: 4px;
+}
+
+.todoitems{
+      border: 1px solid black;
+      padding: 4px;
+}
+.items{
+      /* border: 1px solid lime; */
+      padding: 6px 2px;
+      display: flex;
+      justify-content: space-between;
+}
